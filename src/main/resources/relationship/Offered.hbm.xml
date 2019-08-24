@@ -4,12 +4,12 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="relationship.RequirementCreditRelationship" table="requirementcredit" schema="public" catalog="test-final">
+    <class name="relationship.OfferedRelationship" table="offered" schema="public" catalog="test-final">
         <id name="id">
             <column name="id" sql-type="bigint"/>
         </id>
-        <property name="credit">
-            <column name="credit" sql-type="bigint" not-null="true"/>
+        <property name="course">
+            <column name="course" sql-type="bigint" not-null="true"/>
         </property>
         <property name="subject">
             <column name="subject" sql-type="bigint" not-null="true"/>

@@ -35,7 +35,15 @@
         <mapping class="basic.TeacherEntity"/>
 
         <mapping resource="/relationship/RequirementSubject.hbm.xml"/>
-        <mapping class="relationship.RequirementSubject"/>
+        <mapping class="relationship.RequirementSubjectRelationship"/>
 
+        <mapping resource="relationship/RequirementCredit.hbm.xml"/>
+        <mapping class="relationship.RequirementCreditRelationship"/>
+
+        <mapping resource="relationship/Approved.hbm.xml"/>
+        <mapping class="relationship.ApprovedRelationship"/>
+
+        <mapping resource="relationship/Offered.hbm.xml"/>
+        <mapping class="relationship.OfferedRelationship"/>
     </session-factory>
 </hibernate-configuration>

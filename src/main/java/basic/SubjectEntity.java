@@ -29,6 +29,10 @@ public class SubjectEntity {
     private Long responsibleTeacher;
 
     @Basic
+    @Column(name = "course")
+    private Long course;
+
+    @Basic
     @Column(name = "workload")
     private Integer workload;
 

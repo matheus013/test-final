@@ -21,6 +21,10 @@
             <column name="responsibleteacher" sql-type="bigint" not-null="true"/>
         </property>
 
+        <property name="course">
+            <column name="course" sql-type="bigint" not-null="true"/>
+        </property>
+
         <property name="workload">
             <column name="workload" sql-type="integer" not-null="true"/>
         </property>

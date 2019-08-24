@@ -11,15 +11,15 @@ import java.util.Objects;
 @Getter
 @Setter
 @Entity
-@Table(name = "requirementsubject", schema = "public", catalog = "test-final")
-public class RequirementSubject {
+@Table(name = "approved", schema = "public", catalog = "test-final")
+public class ApprovedRelationship {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
 
     @Basic
     @Column(name = "parent")
-    private Long parent;
+    private Long student;
 
     @Basic
     @Column(name = "subject")
@@ -30,14 +30,14 @@ public class RequirementSubject {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        RequirementSubject that = (RequirementSubject) o;
+        ApprovedRelationship that = (ApprovedRelationship) o;
         return Objects.equals(id, that.id) &&
-                Objects.equals(parent, that.parent) &&
+                Objects.equals(student, that.student) &&
                 Objects.equals(subject, that.subject);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, parent, subject);
+        return Objects.hash(id, student, subject);
     }
 }

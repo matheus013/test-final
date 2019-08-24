@@ -12,7 +12,7 @@ import java.util.Objects;
 @Setter
 @Entity
 @Table(name = "requirementcredit", schema = "public", catalog = "test-final")
-public class RequirementCredit {
+public class RequirementCreditRelationship {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
@@ -30,7 +30,7 @@ public class RequirementCredit {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        RequirementCredit that = (RequirementCredit) o;
+        RequirementCreditRelationship that = (RequirementCreditRelationship) o;
         return Objects.equals(id, that.id) &&
                 Objects.equals(credit, that.credit) &&
                 Objects.equals(subject, that.subject);
