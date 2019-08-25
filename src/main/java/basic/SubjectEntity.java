@@ -1,6 +1,7 @@
 package basic;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -9,6 +10,7 @@ import java.util.Objects;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 @Table(name = "subject", schema = "public", catalog = "test-final")
 public class SubjectEntity {
@@ -48,6 +50,22 @@ public class SubjectEntity {
     @Column(name = "credit")
     private Long credit;
 
+    @Basic
+    @Column(name = "code")
+    private String code;
+
+    public SubjectEntity(String description, String name, Long responsibleTeacher, Long course, Integer workload, Boolean binding, Long level, Long credit) {
+        this.description = description;
+        this.name = name;
+        this.responsibleTeacher = responsibleTeacher;
+        this.course = course;
+        this.workload = workload;
+        this.binding = binding;
+        this.level = level;
+        this.credit = credit;
+        this.code = code;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -60,11 +78,12 @@ public class SubjectEntity {
                 Objects.equals(workload, that.workload) &&
                 Objects.equals(binding, that.binding) &&
                 Objects.equals(level, that.level) &&
-                Objects.equals(credit, that.credit);
+                Objects.equals(credit, that.credit) &&
+                Objects.equals(code, that.code);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, description, name, responsibleTeacher, workload, binding, level, credit);
+        return Objects.hash(id, description, name, responsibleTeacher, workload, binding, level, credit, code);
     }
 }

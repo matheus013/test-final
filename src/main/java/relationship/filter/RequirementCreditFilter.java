@@ -1,10 +1,6 @@
 package relationship.filter;
 
-import basic.StudentEntity;
-import basic.SubjectEntity;
 import dao.RequirementCreditDao;
-import dao.StudentDao;
-import dao.SubjectDao;
 import relationship.RequirementCreditRelationship;
 
 import java.util.List;
@@ -25,5 +21,12 @@ public class RequirementCreditFilter {
         Long requirementCredits = fromSubject(subject).getCredit();
 
         return studentCredits >= requirementCredits;
+    }
+
+    public boolean toMasterSubject(Long student) {
+        ApprovedFilter approvedFilter = new ApprovedFilter();
+
+        Long studentCredits = approvedFilter.creditFromStudent(student);
+        return studentCredits >= 170;
     }
 }

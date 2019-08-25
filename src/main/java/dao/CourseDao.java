@@ -1,10 +1,10 @@
 package dao;
 
-import basic.DepartmentEntity;
+import basic.CourseEntity;
 
-public class CourseDao extends GenericDao<CourseDao, Long> {
+public class CourseDao extends GenericDao<CourseEntity, Long> {
 
     public CourseDao() {
-        super(CourseDao.class);
+        super(CourseEntity.class);
     }
 }

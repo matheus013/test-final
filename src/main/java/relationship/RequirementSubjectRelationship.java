@@ -25,6 +25,10 @@ public class RequirementSubjectRelationship {
     @Column(name = "subject")
     private Long subject;
 
+    public RequirementSubjectRelationship(Long parent, Long subject) {
+        this.parent = parent;
+        this.subject = subject;
+    }
 
     @Override
     public boolean equals(Object o) {

@@ -1,0 +1,11 @@
+basic.CourseEntity
+basic.DepartmentEntity
+basic.SecretaryEntity
+basic.StudentEntity
+basic.SubjectEntity
+basic.TeacherEntity
+functional.Matriculation
+functional.view.SecretaryView
+functional.view.StudentView
+functional.view.SubjectView
+functional.view.View

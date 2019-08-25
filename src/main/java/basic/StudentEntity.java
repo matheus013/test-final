@@ -1,14 +1,15 @@
 package basic;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Objects;
 
 @Setter
 @Getter
+@NoArgsConstructor
 @Entity
 @Table(name = "student", schema = "public", catalog = "test-final")
 public class StudentEntity {
@@ -28,6 +29,17 @@ public class StudentEntity {
     @Column(name = "course")
     private Long course;
 
+    @Basic
+    @Column(name = "level")
+    private Long level;
+
+    public StudentEntity(String name, String registration, Long course, Long level, String code) {
+        this.name = name;
+        this.registration = registration;
+        this.course = course;
+        this.level = level;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -36,11 +48,12 @@ public class StudentEntity {
         return Objects.equals(id, that.id) &&
                 Objects.equals(name, that.name) &&
                 Objects.equals(registration, that.registration) &&
-                Objects.equals(course, that.course);
+                Objects.equals(course, that.course) &&
+                Objects.equals(level, that.level);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, registration, course);
+        return Objects.hash(id, name, registration, level);
     }
 }

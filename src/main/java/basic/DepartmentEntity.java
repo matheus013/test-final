@@ -1,6 +1,7 @@
 package basic;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -8,6 +9,7 @@ import java.util.Objects;
 
 @Setter
 @Getter
+@NoArgsConstructor
 @Entity
 @Table(name = "department", schema = "public", catalog = "test-final")
 public class DepartmentEntity {
@@ -22,6 +24,11 @@ public class DepartmentEntity {
     @Basic
     @Column(name = "responsible")
     private Long responsible;
+
+    public DepartmentEntity(String name, Long responsible) {
+        this.name = name;
+        this.responsible = responsible;
+    }
 
     @Override
     public boolean equals(Object o) {

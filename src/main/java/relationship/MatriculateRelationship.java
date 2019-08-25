@@ -1,32 +1,32 @@
 package relationship;
 
-
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Objects;
 
-
 @Getter
 @Setter
 @Entity
-@Table(name = "requirementcredit", schema = "public", catalog = "test-final")
-public class RequirementCreditRelationship {
+@Table(name = "matriculate", schema = "public", catalog = "test-final")
+@NoArgsConstructor
+public class MatriculateRelationship {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
 
     @Basic
-    @Column(name = "credit")
-    private Long credit;
+    @Column(name = "parent")
+    private Long student;
 
     @Basic
     @Column(name = "subject")
     private Long subject;
 
-    public RequirementCreditRelationship(Long credit, Long subject) {
-        this.credit = credit;
+    public MatriculateRelationship(Long student, Long subject) {
+        this.student = student;
         this.subject = subject;
     }
 
@@ -34,14 +34,14 @@ public class RequirementCreditRelationship {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        RequirementCreditRelationship that = (RequirementCreditRelationship) o;
+        MatriculateRelationship that = (MatriculateRelationship) o;
         return Objects.equals(id, that.id) &&
-                Objects.equals(credit, that.credit) &&
+                Objects.equals(student, that.student) &&
                 Objects.equals(subject, that.subject);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, credit, subject);
+        return Objects.hash(id, student, subject);
     }
 }

@@ -45,5 +45,8 @@
 
         <mapping resource="relationship/Offered.hbm.xml"/>
         <mapping class="relationship.OfferedRelationship"/>
+
+        <mapping resource="relationship/Matriculate.hbm.xml"/>
+        <mapping class="relationship.MatriculateRelationship"/>
     </session-factory>
 </hibernate-configuration>

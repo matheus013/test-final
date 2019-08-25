@@ -1,14 +1,15 @@
 package basic;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.Generated;
 
 import javax.persistence.*;
 import java.util.Objects;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 @Table(name = "secretary", schema = "public", catalog = "test-final")
 public class SecretaryEntity {
@@ -27,6 +28,13 @@ public class SecretaryEntity {
     @Basic
     @Column(name = "level")
     private Long level;
+
+
+    public SecretaryEntity(Long department, String name, Long level) {
+        this.department = department;
+        this.name = name;
+        this.level = level;
+    }
 
     @Override
     public boolean equals(Object o) {

@@ -1,6 +1,7 @@
 package relationship.filter;
 
 import basic.SubjectEntity;
+import dao.CourseDao;
 import dao.OfferedDao;
 
 import java.util.List;
@@ -20,10 +21,37 @@ public class OfferedFilter {
                 .collect(Collectors.toList());
     }
 
-    public List fromCourseToStudent(Long course, Long Student) {
-        List offerFromCourse = fromCourse(course);
+    public List fromDepartment(Long department) {
+        List<SubjectEntity> list = offeredDao.all();
+        CourseDao courseDao = new CourseDao();
 
-//        List offerToStudent = offerFromCourse.
-        return null;
+
+        return list.stream()
+                .filter(o -> department.equals(courseDao.find(o.getCourse()).getDepartment()))
+                .collect(Collectors.toList());
+    }
+
+    public List fromCourseToStudent(Long course, Long student) {
+        RequirementCreditFilter requirementCredit = new RequirementCreditFilter();
+        RequirementSubjectFilter requirementSubject = new RequirementSubjectFilter();
+        List<SubjectEntity> offerFromCourse = fromCourse(course);
+
+        List<SubjectEntity> offerToStudent = offerFromCourse.stream()
+                .filter(o -> requirementCredit.canEnroll(student, o.getId()) &&
+                        requirementSubject.canEnroll(student, o.getId()))
+                .collect(Collectors.toList());
+        return offerToStudent;
+    }
+
+    public List fromDepartmentToStudent(Long department, Long student) {
+        RequirementCreditFilter requirementCredit = new RequirementCreditFilter();
+        RequirementSubjectFilter requirementSubject = new RequirementSubjectFilter();
+        List<SubjectEntity> offerFromCourse = fromDepartment(department);
+
+        List<SubjectEntity> offerToStudent = offerFromCourse.stream()
+                .filter(o -> requirementCredit.canEnroll(student, o.getId()) &&
+                        requirementSubject.canEnroll(student, o.getId()))
+                .collect(Collectors.toList());
+        return offerToStudent;
     }
 }

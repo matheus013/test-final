@@ -25,6 +25,10 @@ public class ApprovedRelationship {
     @Column(name = "subject")
     private Long subject;
 
+    public ApprovedRelationship(Long student, Long subject) {
+        this.student = student;
+        this.subject = subject;
+    }
 
     @Override
     public boolean equals(Object o) {

@@ -1,19 +1,23 @@
 package relationship.filter;
 
 import dao.ApprovedDao;
-import dao.RequirementCreditDao;
 import dao.SubjectDao;
 import relationship.ApprovedRelationship;
-import relationship.RequirementCreditRelationship;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class ApprovedFilter {
-    public boolean canEnroll(Long student, Long subject) {
+
+    public List approvedsFromStudent(Long student) {
         ApprovedDao approvedDao = new ApprovedDao();
-        List<ApprovedRelationship> list = approvedDao.all();
-        return false;
+        SubjectDao subjectDao = new SubjectDao();
+        List<ApprovedRelationship> approvedList = approvedDao.all();
+
+        return approvedList.stream()
+                .filter(o -> student.equals(o.getStudent()))
+                .map(x -> subjectDao.find(x.getSubject()))
+                .collect(Collectors.toList());
     }
 
     public Long creditFromStudent(Long student) {
