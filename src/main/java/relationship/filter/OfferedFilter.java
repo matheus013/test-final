@@ -14,14 +14,14 @@ public class OfferedFilter {
         offeredDao = new OfferedDao();
     }
 
-    public List fromCourse(Long course) {
+    public List<SubjectEntity> fromCourse(Long course) {
         List<SubjectEntity> list = offeredDao.all();
 
         return list.stream().filter(o -> course.equals(o.getCourse()))
                 .collect(Collectors.toList());
     }
 
-    public List fromDepartment(Long department) {
+    public List<SubjectEntity> fromDepartment(Long department) {
         List<SubjectEntity> list = offeredDao.all();
         CourseDao courseDao = new CourseDao();
 
@@ -31,7 +31,7 @@ public class OfferedFilter {
                 .collect(Collectors.toList());
     }
 
-    public List fromCourseToStudent(Long course, Long student) {
+    public List<SubjectEntity> fromCourseToStudent(Long course, Long student) {
         RequirementCreditFilter requirementCredit = new RequirementCreditFilter();
         RequirementSubjectFilter requirementSubject = new RequirementSubjectFilter();
         List<SubjectEntity> offerFromCourse = fromCourse(course);
@@ -43,7 +43,7 @@ public class OfferedFilter {
         return offerToStudent;
     }
 
-    public List fromDepartmentToStudent(Long department, Long student) {
+    public List<SubjectEntity> fromDepartmentToStudent(Long department, Long student) {
         RequirementCreditFilter requirementCredit = new RequirementCreditFilter();
         RequirementSubjectFilter requirementSubject = new RequirementSubjectFilter();
         List<SubjectEntity> offerFromCourse = fromDepartment(department);

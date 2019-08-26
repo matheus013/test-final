@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.Setter;
-import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -19,79 +18,72 @@ import java.util.List;
 @NoArgsConstructor
 public abstract class GenericDao<T, I extends Serializable> {
 
-    private Session currentSession;
+    private Session session;
 
     private Class<T> persistedClass;
 
-    private Transaction currentTransaction;
+    private Transaction transaction;
 
     protected GenericDao(Class<T> persistedClass) {
         this();
         this.persistedClass = persistedClass;
     }
 
-    public Session openCurrentSession() {
-        currentSession = getSessionFactory().openSession();
-        return currentSession;
+
+    public Session openSession() {
+        session = getSessionFactory().openSession();
+        transaction = session.beginTransaction();
+        return session;
     }
 
-    public Session openCurrentSessionwithTransaction() {
-        currentSession = getSessionFactory().openSession();
-        currentTransaction = currentSession.beginTransaction();
-        return currentSession;
-    }
 
-    public void closeCurrentSession() {
-        currentSession.close();
-    }
-
-    public void closeCurrentSessionwithTransaction() {
-        currentTransaction.commit();
-        currentSession.close();
+    public void closeSession() {
+        transaction.commit();
+        session.close();
     }
 
     private static SessionFactory getSessionFactory() {
-        Configuration configuration = new Configuration().configure();
+        Configuration configuration = new Configuration().configure("hibernate.cfg.xml");
         StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder()
                 .applySettings(configuration.getProperties());
         return configuration.buildSessionFactory(builder.build());
     }
 
 
-    public T save(@NonNull T entity) {
-        openCurrentSessionwithTransaction();
-        getCurrentSession().save(entity);
-        closeCurrentSessionwithTransaction();
-        return entity;
+    public I save(@NonNull T entity) {
+        openSession();
+        I pk = (I) getSession().save(entity);
+        closeSession();
+        return pk;
     }
 
     public T update(@NonNull T entity) {
-        openCurrentSessionwithTransaction();
-        getCurrentSession().update(entity);
-        closeCurrentSessionwithTransaction();
+        openSession();
+        getSession().saveOrUpdate(entity);
+        closeSession();
         return entity;
     }
 
     public void delete(@NonNull I id) {
-        openCurrentSessionwithTransaction();
+        openSession();
         T entity = find(id);
-        getCurrentSession().delete(entity);
-        closeCurrentSessionwithTransaction();
+        getSession().delete(entity);
+        closeSession();
 
     }
 
     public List all() {
-        openCurrentSessionwithTransaction();
-        Criteria criteria = getCurrentSession().createCriteria(persistedClass);
-        List list = criteria.list();
-        closeCurrentSessionwithTransaction();
+        openSession();
+        List list = getSession().createQuery("from " + persistedClass.getName(),
+                persistedClass).getResultList();
+        closeSession();
         return list;
     }
 
     public T find(@NonNull I id) {
-        openCurrentSessionwithTransaction();
-        T obj = (T) getCurrentSession().get(persistedClass, id);
-        closeCurrentSessionwithTransaction();
+        openSession();
+        T obj = getSession().get(persistedClass, id);
+        closeSession();
         return obj;
     }
 }

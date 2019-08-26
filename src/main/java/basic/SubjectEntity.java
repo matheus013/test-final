@@ -1,7 +1,7 @@
 package basic;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -10,51 +10,52 @@ import java.util.Objects;
 
 @Getter
 @Setter
-@NoArgsConstructor
+@RequiredArgsConstructor
 @Entity
 @Table(name = "subject", schema = "public", catalog = "test-final")
 public class SubjectEntity {
     @Id
     @Column(name = "id", nullable = false)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
 
     @Basic
-    @Column(name = "description")
+    @Column(name = "description", nullable = false)
     private String description;
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false)
     private String name;
 
     @Basic
-    @Column(name = "responsibleteacher")
+    @Column(name = "responsibleteacher", nullable = false)
     private Long responsibleTeacher;
 
     @Basic
-    @Column(name = "course")
+    @Column(name = "course", nullable = false)
     private Long course;
 
     @Basic
-    @Column(name = "workload")
+    @Column(name = "workload", nullable = false)
     private Integer workload;
 
     @Basic
-    @Column(name = "binding")
+    @Column(name = "binding", nullable = false)
     private Boolean binding;
 
     @Basic
-    @Column(name = "level")
+    @Column(name = "level", nullable = false)
     private Long level;
 
     @Basic
-    @Column(name = "credit")
+    @Column(name = "credit", nullable = false)
     private Long credit;
 
     @Basic
-    @Column(name = "code")
+    @Column(name = "code", nullable = false)
     private String code;
 
-    public SubjectEntity(String description, String name, Long responsibleTeacher, Long course, Integer workload, Boolean binding, Long level, Long credit) {
+    public SubjectEntity(String description, String name, Long responsibleTeacher, Long course, Integer workload, Boolean binding, Long level, Long credit, String code) {
         this.description = description;
         this.name = name;
         this.responsibleTeacher = responsibleTeacher;
@@ -71,7 +72,7 @@ public class SubjectEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         SubjectEntity that = (SubjectEntity) o;
-        return id == that.id &&
+        return Objects.equals(id, that.id) &&
                 Objects.equals(description, that.description) &&
                 Objects.equals(name, that.name) &&
                 Objects.equals(responsibleTeacher, that.responsibleTeacher) &&
@@ -85,5 +86,14 @@ public class SubjectEntity {
     @Override
     public int hashCode() {
         return Objects.hash(id, description, name, responsibleTeacher, workload, binding, level, credit, code);
+    }
+
+    public boolean isNull() {
+        return responsibleTeacher == null || course == null || workload == null || level == null || credit == null;
+    }
+
+    public boolean validation() {
+        return name != null && level != null && code != null && course != null && description != null &&
+                responsibleTeacher != null && workload != null && binding != null;
     }
 }

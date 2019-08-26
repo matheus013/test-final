@@ -17,7 +17,7 @@ import java.util.Objects;
 @Getter
 @Setter
 public class Matriculation {
-    private List studentAvailable;
+    private List<StudentEntity> studentAvailable;
     private StudentEntity selectedStudent;
     StudentDao studentDao;
     List<SubjectEntity> offer;
@@ -26,7 +26,9 @@ public class Matriculation {
         studentDao = new StudentDao();
     }
 
-    public List start() {
+    public List<StudentEntity> start() {
+        if(studentDao == null)
+            return null;
         studentAvailable = studentDao.all();
         return studentAvailable;
     }
@@ -43,7 +45,10 @@ public class Matriculation {
     }
 
     public Boolean doMatriculation() {
-        if (offer == null)
+        if (offer == null || selectedStudent == null)
+            return false;
+
+        if (!selectedStudent.validation())
             return false;
 
         MatriculateDao matriculateDao = new MatriculateDao();

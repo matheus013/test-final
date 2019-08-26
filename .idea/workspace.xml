@@ -2,53 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0372a049-5d87-4188-be2a-d5c446d65c8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/randoop_all_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MatriculateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/view/StudentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/view/SubjectView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/relationship/MatriculateRelationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/relationship/Matriculate.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Academic_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Batch_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Data_JPA_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Integration_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Security_3_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Web_Services_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Webflow_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDaoSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/InterfaceGenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/GenericDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functional/view/SecretaryViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/regressive/RegressionTest0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Academic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Academic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basic/CourseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/CourseEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basic/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/DepartmentEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basic/SecretaryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/SecretaryEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basic/StudentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/StudentEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basic/SubjectEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/SubjectEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basic/TeacherEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/TeacherEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CourseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/MatriculateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/MatriculateDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/functional/Matriculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/Matriculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/relationship/ApprovedRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/ApprovedRelationship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/view/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/view/StudentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/view/SubjectView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/view/SubjectView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/view/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/relationship/MatriculateRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/MatriculateRelationship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/relationship/OfferedRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/OfferedRelationship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/relationship/RequirementCreditRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/RequirementCreditRelationship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/relationship/RequirementSubjectRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/RequirementSubjectRelationship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/relationship/filter/ApprovedFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/filter/ApprovedFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/relationship/filter/OfferedFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/filter/OfferedFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementCreditFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementCreditFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementSubjectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementSubjectFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/basic/StudentEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basic/StudentEntity.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/basic/CourseEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basic/CourseEntity.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/basic/SubjectEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basic/SubjectEntity.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/basic/TeacherEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basic/TeacherEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/basic/CourseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/CourseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basic/CourseEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/CourseEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/basic/DepartmentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/DepartmentEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/basic/SecretaryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/SecretaryEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/basic/StudentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/StudentEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basic/StudentEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/StudentEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/basic/SubjectEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/SubjectEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basic/SubjectEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/SubjectEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/basic/TeacherEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/TeacherEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/CourseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/CourseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basic/TeacherEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/TeacherEntity.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/GenericDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/GenericDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/functional/Matriculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/functional/Matriculation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/relationship/ApprovedRelationship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/ApprovedRelationship.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/relationship/OfferedRelationship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/OfferedRelationship.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/relationship/RequirementCreditRelationship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/RequirementCreditRelationship.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/relationship/RequirementSubjectRelationship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/RequirementSubjectRelationship.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/relationship/filter/ApprovedFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/filter/ApprovedFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/relationship/filter/OfferedFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/filter/OfferedFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/relationship/filter/RequirementCreditFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/filter/RequirementCreditFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/relationship/filter/RequirementSubjectFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationship/filter/RequirementSubjectFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,6 +86,12 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="148" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -81,11 +112,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/StudentView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="82">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
@@ -96,19 +127,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java">
+        <entry file="file://$PROJECT_DIR$/classfile.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/View.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/functional/view/SecretaryViewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="93">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/regressive/RegressionTest0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,17 +159,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/SubjectView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="227">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dao/GenericDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
+            <state relative-caret-position="426">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +178,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/ApprovedFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="81">
+              <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,28 +190,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/OfferedFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/basic/StudentEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/basic/SubjectEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state relative-caret-position="-176">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -180,6 +205,8 @@
       <list>
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
+        <option value="JUnit4 Test Class" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -189,6 +216,12 @@
       <find>Department</find>
       <find>RequirementSubject</find>
       <find>sum</find>
+      <find>studentEntity</find>
+      <find>con</find>
+      <find>Cou</find>
+      <find>getSessionFactory</find>
+      <find>Dao</find>
+      <find>save</find>
     </findStrings>
     <replaceStrings>
       <replace>Secretary</replace>
@@ -196,6 +229,10 @@
       <replace>Subject</replace>
       <replace>Teacher</replace>
       <replace>RequirementCredit</replace>
+      <replace>subjectEntity</replace>
+      <replace>Entity</replace>
+      <replace>update</replace>
+      <replace>delete</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -204,57 +241,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/relationship/RequirementEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/RequirementCredit.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/relationship/RequirementCredit.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/basic/DepartmentEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/basic/CourseEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/basic/SecretaryEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/relationship/Approved.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/Approved.java" />
-        <option value="$PROJECT_DIR$/src/main/java/functional/Offer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/Offered.java" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/dao/OfferedDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/OfferedDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/basic/SubjectEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementSubject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ApprovedDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/RequirementCreditDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/RequirementSubjectDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/relationship/Offered.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementSubjectFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/ApprovedFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/CourseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/OfferedFilter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/relationship/Matriculate.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/relationship/ApprovedRelationship.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/basic/StudentEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementCreditFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functional/Views.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functional/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classes" />
+        <option value="$PROJECT_DIR$/classes" />
+        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementSubjectFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/OfferedFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functional/view/View.java" />
+        <option value="$PROJECT_DIR$/src/test/java/regressive/ErrorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/regressive/ErrorTest0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functional/Matriculation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/relationship/MatriculateRelationship.java" />
         <option value="$PROJECT_DIR$/src/main/java/relationship/OfferedRelationship.java" />
         <option value="$PROJECT_DIR$/src/main/java/relationship/RequirementCreditRelationship.java" />
         <option value="$PROJECT_DIR$/src/main/java/relationship/RequirementSubjectRelationship.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/basic/StudentEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/RequirementCreditFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/MatriculateRelationship.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/MatriculateDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/functional/Views.java" />
-        <option value="$PROJECT_DIR$/src/main/java/functional/View.java" />
-        <option value="$PROJECT_DIR$/src/main/java/basic/TeacherEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/basic/SecretaryEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/basic/DepartmentEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/basic/CourseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classes" />
-        <option value="$PROJECT_DIR$/classes" />
-        <option value="$PROJECT_DIR$/classfile.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/regressive/RegressionTest0.java" />
-        <option value="$PROJECT_DIR$/src/test/java/regressive/ErrorTest0.java" />
-        <option value="$PROJECT_DIR$/src/test/java/regressive/ErrorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/functional/Matriculation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/basic/SubjectEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/basic/SubjectEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/basic/TeacherEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/basic/StudentEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/SecretaryEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/SubjectEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/TeacherEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/IGenericDAO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/AbstractHibernateDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/IGenericDao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GenericDaoHibernateImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/CourseEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/basic/CourseEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GenericDaoSpring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/MatriculateDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/relationship/filter/ApprovedFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/DepartmentEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/GenericDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functional/view/SubjectView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java" />
+        <option value="$PROJECT_DIR$/classfile.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/functional/view/SecretaryViewTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/functional/view/StudentView.java" />
+        <option value="$PROJECT_DIR$/src/test/java/regressive/RegressionTest0.java" />
       </list>
     </option>
   </component>
@@ -278,6 +315,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Academic" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Academic" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Academic" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Academic" type="616d4139:PackageViewModuleNode" />
+              <item name="basic" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Academic" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Academic" type="616d4139:PackageViewModuleNode" />
+              <item name="functional" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Academic" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Academic" type="616d4139:PackageViewModuleNode" />
+              <item name="functional" type="1f31426a:PackageElementNode" />
+              <item name="view" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Academic" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Academic" type="616d4139:PackageViewModuleNode" />
+              <item name="relationship" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,7 +387,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="functional" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Academic" type="b2602c69:ProjectViewProjectNode" />
@@ -325,8 +395,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="functional" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="relationship" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="relationship" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Academic" type="b2602c69:ProjectViewProjectNode" />
@@ -340,6 +418,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Academic" type="b2602c69:ProjectViewProjectNode" />
@@ -353,18 +439,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Academic" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Academic" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,6 +447,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/relationship" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -385,18 +461,26 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/regressive" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dao" />
+      <recent name="functional.view" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="basic" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/relationship" />
       <recent name="$PROJECT_DIR$/src/main/resources/basic" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="basic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/regressive" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,7 +495,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ErrorTest (1)">
+  <component name="RunManager" selected="JUnit.RegressionTest0">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Academic" />
@@ -427,50 +511,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Academic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regressive.*" />
+          <option name="PATTERN" value="dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="regressive" />
-      <option name="MAIN_CLASS_NAME" value="regressive.ErrorTest" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.GenericDaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Academic" />
-      <option name="PACKAGE_NAME" value="regressive" />
-      <option name="MAIN_CLASS_NAME" value="ErrorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ErrorTest0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericDaoTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Academic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regressive.*" />
+          <option name="PATTERN" value="dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="regressive" />
-      <option name="MAIN_CLASS_NAME" value="regressive.ErrorTest0" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.GenericDaoTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RegressionTest0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regressive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="relationship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="regressive" />
-      <option name="MAIN_CLASS_NAME" value="RegressionTest0" />
+      <option name="MAIN_CLASS_NAME" value="regressive.RegressionTest0" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegressionTest0.test0078" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regressive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regressive" />
+      <option name="MAIN_CLASS_NAME" value="regressive.RegressionTest0" />
+      <option name="METHOD_NAME" value="test0078" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -478,17 +594,17 @@
     <list>
       <item itemvalue="Application.randoop" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.GenericDaoTest" />
+      <item itemvalue="JUnit.GenericDaoTest.save" />
       <item itemvalue="JUnit.RegressionTest0" />
-      <item itemvalue="JUnit.ErrorTest" />
-      <item itemvalue="JUnit.ErrorTest0" />
-      <item itemvalue="JUnit.ErrorTest (1)" />
+      <item itemvalue="JUnit.RegressionTest0.test0078" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ErrorTest (1)" />
-        <item itemvalue="JUnit.ErrorTest" />
-        <item itemvalue="JUnit.ErrorTest0" />
         <item itemvalue="JUnit.RegressionTest0" />
+        <item itemvalue="JUnit.RegressionTest0.test0078" />
+        <item itemvalue="JUnit.GenericDaoTest" />
+        <item itemvalue="JUnit.GenericDaoTest.save" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -504,72 +620,81 @@
       <option name="presentableId" value="Default" />
       <updated>1566578563888</updated>
       <workItem from="1566578570439" duration="22917000" />
-      <workItem from="1566697318997" duration="4700000" />
+      <workItem from="1566697318997" duration="17322000" />
+      <workItem from="1566767667217" duration="11265000" />
     </task>
+    <task id="LOCAL-00001" summary="views">
+      <created>1566702207752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566702207753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegressionTest0 - 2019.08.24 at 23h 31m 32s.xml">
+    <history-entry file="GenericDaoTest - 2019.08.25 at 21h 14m 12s.xml">
+      <configuration name="GenericDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericDaoTest - 2019.08.25 at 21h 15m 54s.xml">
+      <configuration name="GenericDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericDaoTest - 2019.08.25 at 21h 16m 11s.xml">
+      <configuration name="GenericDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegressionTest0 - 2019.08.25 at 21h 20m 09s.xml">
       <configuration name="RegressionTest0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegressionTest0 - 2019.08.24 at 23h 32m 09s.xml">
+    <history-entry file="RegressionTest0_test0078 - 2019.08.25 at 21h 22m 31s.xml">
+      <configuration name="RegressionTest0.test0078" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegressionTest0_test0078 - 2019.08.25 at 21h 22m 46s.xml">
+      <configuration name="RegressionTest0.test0078" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegressionTest0 - 2019.08.25 at 21h 32m 37s.xml">
       <configuration name="RegressionTest0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegressionTest0 - 2019.08.24 at 23h 32m 41s.xml">
+    <history-entry file="RegressionTest0 - 2019.08.25 at 21h 33m 20s.xml">
       <configuration name="RegressionTest0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegressionTest0 - 2019.08.24 at 23h 38m 51s.xml">
+    <history-entry file="RegressionTest0 - 2019.08.25 at 21h 34m 49s.xml">
       <configuration name="RegressionTest0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ErrorTest - 2019.08.24 at 23h 39m 08s.xml">
-      <configuration name="ErrorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ErrorTest0 - 2019.08.24 at 23h 40m 05s.xml">
-      <configuration name="ErrorTest0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ErrorTest0 - 2019.08.24 at 23h 40m 57s.xml">
-      <configuration name="ErrorTest0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ErrorTest0 - 2019.08.24 at 23h 41m 44s.xml">
-      <configuration name="ErrorTest0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ErrorTest - 2019.08.24 at 23h 41m 59s.xml">
-      <configuration name="ErrorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ErrorTest_(1) - 2019.08.24 at 23h 42m 08s.xml">
-      <configuration name="ErrorTest (1)" configurationId="JUnit" />
+    <history-entry file="RegressionTest0 - 2019.08.25 at 21h 35m 45s.xml">
+      <configuration name="RegressionTest0" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27617000" />
+    <option name="totallyTimeSpent" value="51504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <layout>
+      <window_info id="Web" side_tool="true" />
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Persistence" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25767368" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="5" sideWeight="0.5024155" side_tool="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49758455" visible="true" weight="0.26171243" />
+      <window_info id="Structure" order="7" sideWeight="0.5024155" side_tool="true" weight="0.25767368" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32901135" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32970297" />
-      <window_info anchor="bottom" id="Database Changes" order="4" weight="0.32970297" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32901135" />
+      <window_info anchor="bottom" id="Database Changes" order="4" weight="0.32901135" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32901135" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.30307943" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32953367" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32901135" />
       <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -579,6 +704,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32956383" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -586,20 +712,20 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Persistence" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.37722132" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="5" sideWeight="0.5024155" side_tool="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49758455" visible="true" weight="0.26171243" />
+      <window_info id="Structure" order="7" sideWeight="0.5024155" side_tool="true" weight="0.25767368" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32901135" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32970297" />
-      <window_info anchor="bottom" id="Database Changes" order="4" weight="0.32970297" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32901135" />
+      <window_info anchor="bottom" id="Database Changes" order="4" weight="0.32901135" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32901135" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.30307943" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32953367" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32901135" />
       <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -612,30 +738,284 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32956383" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="views" />
+    <option name="LAST_COMMIT_MESSAGE" value="views" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/functional/Matriculation.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Academic$RegressionTest0.ic" NAME="RegressionTest0 Coverage Results" MODIFIED="1566700342305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Academic$.ic" NAME=" Coverage Results" MODIFIED="1566767573970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>regressive.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Academic$All_in_Academic.ic" NAME="All in Academic Coverage Results" MODIFIED="1566767435429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>regressive.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Academic$SecretaryViewTest_toString1.ic" NAME="SecretaryViewTest.toString1 Coverage Results" MODIFIED="1566768475366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>functional.view.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Academic$RegressionTest0_test0078.ic" NAME="RegressionTest0.test0078 Coverage Results" MODIFIED="1566778957708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>regressive.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Academic$RegressionTest0.ic" NAME="RegressionTest0 Coverage Results" MODIFIED="1566779715020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>regressive.*</FILTER>
+      <FILTER>functional.*</FILTER>
+      <FILTER>basic.*</FILTER>
+      <FILTER>dao.*</FILTER>
+      <FILTER>relationship.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Academic$GenericDaoTest_save.ic" NAME="GenericDaoTest.save Coverage Results" MODIFIED="1566777589036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Academic$Whole_project.ic" NAME="Whole project Coverage Results" MODIFIED="1566767493987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>regressive.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Academic$GenericDaoTest.ic" NAME="GenericDaoTest Coverage Results" MODIFIED="1566778447129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dao.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/SecretaryDao.java">
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.3.Final.jar!/org/hibernate/boot/registry/BootstrapServiceRegistryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.3.Final.jar!/org/hibernate/cfg/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#4302#4303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.3.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/RequirementSubjectRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/basic/SecretaryEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/basic/StudentEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/basic/SubjectEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/basic/TeacherEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/relationship/Approved.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/ApprovedRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/MatriculateRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/OfferedRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/RequirementCreditRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/academico-2019.1 2/src/main/java/br/ufal/ic/teste/academico/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/SecretaryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/StudentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/SubjectEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/TeacherEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/relationship/Matriculate.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/functional/Matriculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/InterfaceGenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://SpringLocalModels/module=Academic">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=Academic</OriginalElement>
+          <nodes>
+            <node x="" y="">module=Academic</node>
+            <node x="" y="">fileset=Academic/MVC application context</node>
+            <node x="" y="">filePath=/Users/matheus/Documents/Academic/web/WEB-INF/applicationContext.xml</node>
+            <node x="" y="">fileset=Academic/MVC dispatcher servlet context</node>
+            <node x="" y="">filePath=/Users/matheus/Documents/Academic/web/WEB-INF/dispatcher-servlet.xml</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="313.0" y="61.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="122">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="e#0#17#1" expanded="true" />
           </folding>
@@ -644,118 +1024,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/basic/CourseEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="216">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/CourseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/basic/DepartmentEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="487">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/basic/SecretaryEntity.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MatriculateDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="195">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/app/src/main/java/laccan/cloud/prediction/Regression.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/functional/Offer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDaoSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ApprovedDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="69" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/RequirementCreditFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/ApprovedFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/OfferedDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/RequirementCreditDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="217">
+          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#17#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/RequirementSubjectDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/DepartmentEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="124">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/basic/SubjectEntity.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dao/GenericDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/relationship/RequirementSubject.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/relationship/Approved.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/relationship/RequirementCredit.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/relationship/Offered.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ApprovedDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="426">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/RequirementSubjectFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/SubjectView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="227">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -764,329 +1163,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/OfferedFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/OfferedRelationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/RequirementSubjectRelationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/ApprovedRelationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/basic/StudentEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/relationship/Matriculate.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/RequirementCreditFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/RequirementCreditRelationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/MatriculateRelationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MatriculateDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/TeacherEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/SecretaryEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/DepartmentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="-176">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classfile.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/regressive/RegressionTest0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="8988" column="32" selection-start-line="8988" selection-start-column="32" selection-end-line="8988" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#42350#42371#0" expanded="true" />
-            <element signature="e#50211#50232#0" expanded="true" />
-            <element signature="e#60761#60782#0" expanded="true" />
-            <element signature="e#70681#70702#0" expanded="true" />
-            <element signature="e#139720#139741#0" expanded="true" />
-            <element signature="e#142194#142215#0" expanded="true" />
-            <element signature="e#154380#154401#0" expanded="true" />
-            <element signature="e#181679#181700#0" expanded="true" />
-            <element signature="e#201178#201199#0" expanded="true" />
-            <element signature="e#211881#211902#0" expanded="true" />
-            <element signature="e#212396#212417#0" expanded="true" />
-            <element signature="e#227179#227200#0" expanded="true" />
-            <element signature="e#246190#246211#0" expanded="true" />
-            <element signature="e#273529#273550#0" expanded="true" />
-            <element signature="e#283474#283495#0" expanded="true" />
-            <element signature="e#303100#303121#0" expanded="true" />
-            <element signature="e#324476#324497#0" expanded="true" />
-            <element signature="e#350340#350361#0" expanded="true" />
-            <element signature="e#371729#371750#0" expanded="true" />
-            <element signature="e#379260#379281#0" expanded="true" />
-            <element signature="e#392275#392296#0" expanded="true" />
-            <element signature="e#403747#403768#0" expanded="true" />
-            <element signature="e#404839#404860#0" expanded="true" />
-            <element signature="e#424215#424236#0" expanded="true" />
-            <element signature="e#433175#433196#0" expanded="true" />
-            <element signature="e#462073#462094#0" expanded="true" />
-            <element signature="e#462691#462712#0" expanded="true" />
-            <element signature="e#464631#464652#0" expanded="true" />
-            <element signature="e#468719#468740#0" expanded="true" />
-            <element signature="e#485223#485244#0" expanded="true" />
-            <element signature="e#520417#520438#0" expanded="true" />
-            <element signature="e#521035#521056#0" expanded="true" />
-            <element signature="e#556716#556737#0" expanded="true" />
-            <element signature="e#562646#562667#0" expanded="true" />
-            <element signature="e#563539#563560#0" expanded="true" />
-            <element signature="e#578968#578989#0" expanded="true" />
-            <element signature="e#579483#579504#0" expanded="true" />
-            <element signature="e#581306#581327#0" expanded="true" />
-            <element signature="e#646086#646107#0" expanded="true" />
-            <element signature="e#646704#646725#0" expanded="true" />
-            <element signature="e#647728#647749#0" expanded="true" />
-            <element signature="e#648356#648377#0" expanded="true" />
-            <element signature="e#674695#674716#0" expanded="true" />
-            <element signature="e#690595#690616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/regressive/ErrorTest0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1001#1022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/regressive/ErrorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/functional/Matriculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/ApprovedFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/CourseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/SubjectEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basic/StudentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/relationship/filter/MatriculateFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/SubjectView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/SecretaryView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/functional/view/StudentView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="82">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
             <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/functional/view/SecretaryViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/regressive/RegressionTest0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

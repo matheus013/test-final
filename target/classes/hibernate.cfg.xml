@@ -34,6 +34,9 @@
         <mapping resource="/basic/TeacherEntity.hbm.xml"/>
         <mapping class="basic.TeacherEntity"/>
 
+        <mapping resource="basic/CourseEntity.hbm.xml"/>
+        <mapping class="basic.CourseEntity"/>
+
         <mapping resource="/relationship/RequirementSubject.hbm.xml"/>
         <mapping class="relationship.RequirementSubjectRelationship"/>
 

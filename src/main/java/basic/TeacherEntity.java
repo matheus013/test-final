@@ -2,7 +2,7 @@ package basic;
 
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -11,20 +11,21 @@ import java.util.Objects;
 
 @Getter
 @Setter
-@NoArgsConstructor
+@RequiredArgsConstructor
 @Entity
 @Table(name = "teacher", schema = "public", catalog = "test-final")
 public class TeacherEntity {
     @Id
     @Column(name = "id", nullable = false)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false)
     private String name;
 
     @Basic
-    @Column(name = "department")
+    @Column(name = "department", nullable = false)
     private Long department;
 
     public TeacherEntity(String name, Long department) {
@@ -45,5 +46,9 @@ public class TeacherEntity {
     @Override
     public int hashCode() {
         return Objects.hash(id, name, department);
+    }
+
+    public boolean validation() {
+        return name != null && department != null;
     }
 }

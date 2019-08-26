@@ -1,5 +1,6 @@
 package relationship.filter;
 
+import basic.SubjectEntity;
 import dao.ApprovedDao;
 import dao.SubjectDao;
 import relationship.ApprovedRelationship;
@@ -9,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class ApprovedFilter {
 
-    public List approvedsFromStudent(Long student) {
+    public List<SubjectEntity> approvalsFromStudent(Long student) {
         ApprovedDao approvedDao = new ApprovedDao();
         SubjectDao subjectDao = new SubjectDao();
         List<ApprovedRelationship> approvedList = approvedDao.all();
@@ -29,8 +30,7 @@ public class ApprovedFilter {
                 .filter(o -> student.equals(o.getStudent()))
                 .collect(Collectors.toList());
 
-        Long sum = approvedFromStudent.stream()
+        return approvedFromStudent.stream()
                 .mapToLong(a -> subjectDao.find(a.getSubject()).getCredit()).sum();
-        return sum;
     }
 }

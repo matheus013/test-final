@@ -2,6 +2,7 @@ package relationship;
 
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -10,12 +11,13 @@ import java.util.Objects;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 @Table(name = "requirementsubject", schema = "public", catalog = "test-final")
 public class RequirementSubjectRelationship {
     @Id
     @Column(name = "id", nullable = false)
-    private Long id;
+    private long id;
 
     @Basic
     @Column(name = "parent")

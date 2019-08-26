@@ -12,13 +12,13 @@ public class MatriculateDao extends GenericDao<MatriculateRelationship, Long> {
     }
 
     @Override
-    public MatriculateRelationship save(MatriculateRelationship entity) {
+    public Long save(MatriculateRelationship entity) {
         if (contains(entity.getStudent(), entity.getSubject()))
-            return entity;
-        openCurrentSessionwithTransaction();
-        getCurrentSession().save(entity);
-        closeCurrentSessionwithTransaction();
-        return entity;
+            return -1L;
+        openSession();
+        Long pk = (Long) getSession().save(entity);
+        closeSession();
+        return pk;
     }
 
     private Boolean contains(Long student, Long subject) {

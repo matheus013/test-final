@@ -15,7 +15,7 @@ import java.util.Objects;
 public class MatriculateRelationship {
     @Id
     @Column(name = "id", nullable = false)
-    private Long id;
+    private long id;
 
     @Basic
     @Column(name = "parent")

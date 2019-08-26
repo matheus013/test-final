@@ -1,33 +1,35 @@
 package basic;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Getter
 @Setter
-@NoArgsConstructor
+@RequiredArgsConstructor
 @Entity
 @Table(name = "course", schema = "public", catalog = "test-final")
-public class CourseEntity {
+public class CourseEntity implements Serializable {
 
     @Id
     @Column(name = "id", nullable = false)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false)
     private String name;
 
     @Basic
-    @Column(name = "level")
+    @Column(name = "level", nullable = false)
     private Long level;
 
     @Basic
-    @Column(name = "department")
+    @Column(name = "department", nullable = false)
     private Long department;
 
     public CourseEntity(String name, Long level, Long department) {
@@ -50,5 +52,9 @@ public class CourseEntity {
     @Override
     public int hashCode() {
         return Objects.hash(id, name, level, department);
+    }
+
+    public boolean validation() {
+        return name != null && level != null && department != null;
     }
 }
